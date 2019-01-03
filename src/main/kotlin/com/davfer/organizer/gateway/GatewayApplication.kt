@@ -1,4 +1,4 @@
-package com.davfer.organizer.discovery
+package com.davfer.organizer.gateway
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

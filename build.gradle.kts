@@ -25,6 +25,9 @@ dependencies {
     implementation(kotlin("reflect")) // Kotlin reflection library (mandatory as of Spring Framework 5)
 
     implementation("org.springframework.boot:spring-boot-starter-web")
+    implementation("org.springframework.boot:spring-boot-starter-security")
+    implementation("org.springframework.session:spring-session-data-redis")
+    implementation("org.springframework.boot:spring-boot-starter-data-redis")
     implementation("org.springframework.boot:spring-boot-starter-actuator")
     testImplementation("org.springframework.boot:spring-boot-starter-test") {
         exclude(module = "junit") //Exclude JUnit 4
